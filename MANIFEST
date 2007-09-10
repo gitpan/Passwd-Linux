@@ -4,6 +4,4 @@ Makefile.PL
 Linux.pm
 Linux.xs
 test.pl
-typemap
-password.c
-password.h
+META.yml                                 Module meta-data (added by MakeMaker)

@@ -20,3 +20,8 @@ Revision history for Perl extension Passwd::Linux.
 0.70  Tue Aug 15 12:20:33 2000
 	- first cut at linux port (trying a redhat version first
 	  as that is what I have access to at the moment)
+
+1.2   Sun Sep 09 18:37:27 2007
+	- rewrote module so that the only the locking is in c
+	- mgetpwnam returns all the shadow file information
+	- rmpwnam can be passed mutliple logins now
